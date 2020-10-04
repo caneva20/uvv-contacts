@@ -13,25 +13,50 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1efc94-45ff-42f0-bb1d-0139b84b3e76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/CircularList/CircularList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/uvv-contacts.csproj" afterDir="false" />
+    <list default="true" id="1f1efc94-45ff-42f0-bb1d-0139b84b3e76" name="Default Changelist" comment="update idea config">
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/ContactBook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Logging/ILogger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Logging/Logger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/AddContactButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/ContactSelectorMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/ContactsMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/CreateContactMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/IMenuAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/OrderingMethodMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/Utils/ExitApplicationAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/Utils/SelectOption.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Models/Contact.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/IPersister.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Persister.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Readers/FileReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Readers/IReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Serializer/ISerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Serializer/JsonSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/FileWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/IWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/PathNotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/MenuBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/PromptE.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/SelectBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/CellphoneUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/CellphoneValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/EmailValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/InputValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/MinLengthValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvv-contacts/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uvv-contacts/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvv-contacts/uvv-contacts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/uvv-contacts/uvv-contacts.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,18 +69,72 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/CircularList/Node.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AE6C5606-323D-493F-8435-C2D7CBA7A978/f1/ba328143/ConsoleMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/6c/a4c9be81/Prompt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/18/ad5fc97b/Selector`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AE6C5606-323D-493F-8435-C2D7CBA7A978/60/21a7458f/MenuConfig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/31F94AF4-0455-4C4C-BD4F-AB58A9F2D1BF/22/OrderBy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/8a/8f614336/Select`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6D13C30E-8D2C-4F45-8A43-BA680CD6B33D/23/File.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/uvv-contacts/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31F94AF4-0455-4C4C-BD4F-AB58A9F2D1BF/57/3b077fe3/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uvv-contacts/appsettings.json" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Root.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/uvv-contacts.csproj" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/FileWriter.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Persistence/Persister.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Persistence/Serializer/JsonSerializer.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidation.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/Menus/IInputValidator.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/Menus/InputValidator.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/InputValidator.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/PrompExtensions.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/Menus/MenuBuilder.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/PrompExtensions.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/PrompE.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/MinLengthValidator.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/CellphoneUtils.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/EmailValidator.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/CellphoneValidator.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Shared/ExitApplicationAction.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/PromptE.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/ContactBook.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/NewContact/NewContactMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/UpdateContactAction.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/SelectOption.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/Menus/IMenuAction.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/NewContact/UpdateContactMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Main/ListContactsButton.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Main/AddContactButton.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Utils/PromptE.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Main/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Utils/ExitApplicationAction.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/ListContactsButton.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Models/Contact.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/IMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/MenuBuilder.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/PromptE.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/UpdateContactMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Menu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/InputExtension.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/SelectExtension.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/MenuExtension.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/PromptE.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Program.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/CircularList/CircularList.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/MenuBuilder.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/ListContactsMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/IMenuAction.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/CreateContactMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/AddContactButton.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/SelectBuilder.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/ContactsMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/OrderingMethodMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/ContactSelectorMenu.cs" />
       </list>
     </option>
   </component>
@@ -68,19 +147,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3503876" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35007498" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29985008" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager">
     <configuration name="uvv-contacts" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/uvv-contacts/bin/Debug/netcoreapp3.1/win-x64/uvv-contacts.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uvv-contacts/bin/Debug/netcoreapp3.1/win-x64" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -90,7 +172,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -105,8 +187,35 @@
       <option name="presentableId" value="Default" />
       <updated>1600434837520</updated>
       <workItem from="1600434841108" duration="771000" />
-      <workItem from="1601461595131" duration="12432000" />
+      <workItem from="1601461595131" duration="13783000" />
+      <workItem from="1601506997670" duration="9594000" />
+      <workItem from="1601554723914" duration="8802000" />
+      <workItem from="1601589145593" duration="5951000" />
+      <workItem from="1601642370115" duration="3113000" />
+      <workItem from="1601826450511" duration="218000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1601475646039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601475646040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add circular list">
+      <created>1601475669709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601475669709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update idea config">
+      <created>1601826665751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826665751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,12 +237,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add circular list" />
+    <MESSAGE value="update idea config" />
+    <option name="LAST_COMMIT_MESSAGE" value="update idea config" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="434" height="466" key="DebuggerActiveHint" timestamp="1601474600009">
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601643837455">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="434" height="466" key="DebuggerActiveHint/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474600009" />
+    <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601643837455" />
+    <state width="465" height="466" key="DebuggerActiveHint" timestamp="1601560983938">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="465" height="466" key="DebuggerActiveHint/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601560983938" />
     <state x="554" y="282" key="Github.ShareDialog" timestamp="1601475489721">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -142,138 +259,120 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="518" y="89" key="Github.UntrackedFilesDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475511709" />
-    <state width="1321" height="203" key="GridCell.Tab.0.bottom" timestamp="1601474645346">
+    <state width="1365" height="712" key="GridCell.Tab.0.bottom" timestamp="1601645511994">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645346" />
-    <state width="1321" height="203" key="GridCell.Tab.0.center" timestamp="1601474645346">
+    <state width="1365" height="712" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511994" />
+    <state width="1365" height="712" key="GridCell.Tab.0.center" timestamp="1601645511993">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645346" />
-    <state width="1321" height="203" key="GridCell.Tab.0.left" timestamp="1601474645346">
+    <state width="1365" height="712" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511993" />
+    <state width="1365" height="712" key="GridCell.Tab.0.left" timestamp="1601645511993">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645346" />
-    <state width="1321" height="203" key="GridCell.Tab.0.right" timestamp="1601474645346">
+    <state width="1365" height="712" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511993" />
+    <state width="1365" height="712" key="GridCell.Tab.0.right" timestamp="1601645511993">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645346" />
-    <state width="1321" height="203" key="GridCell.Tab.1.bottom" timestamp="1601474645348">
+    <state width="1365" height="712" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511993" />
+    <state width="1321" height="148" key="GridCell.Tab.1.bottom" timestamp="1601563608403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645348" />
-    <state width="1321" height="203" key="GridCell.Tab.1.center" timestamp="1601474645347">
+    <state width="1321" height="148" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
+    <state width="1321" height="148" key="GridCell.Tab.1.center" timestamp="1601563608403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645347" />
-    <state width="1321" height="203" key="GridCell.Tab.1.left" timestamp="1601474645346">
+    <state width="1321" height="148" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
+    <state width="1321" height="148" key="GridCell.Tab.1.left" timestamp="1601563608402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645346" />
-    <state width="1321" height="203" key="GridCell.Tab.1.right" timestamp="1601474645347">
+    <state width="1321" height="148" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608402" />
+    <state width="1321" height="148" key="GridCell.Tab.1.right" timestamp="1601563608403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645347" />
-    <state width="1321" height="203" key="GridCell.Tab.2.bottom" timestamp="1601474645349">
+    <state width="1321" height="148" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
+    <state width="1321" height="148" key="GridCell.Tab.2.bottom" timestamp="1601563608405">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.2.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645349" />
-    <state width="1321" height="203" key="GridCell.Tab.2.center" timestamp="1601474645349">
+    <state width="1321" height="148" key="GridCell.Tab.2.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608405" />
+    <state width="1321" height="148" key="GridCell.Tab.2.center" timestamp="1601563608403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.2.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645349" />
-    <state width="1321" height="203" key="GridCell.Tab.2.left" timestamp="1601474645349">
+    <state width="1321" height="148" key="GridCell.Tab.2.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
+    <state width="1321" height="148" key="GridCell.Tab.2.left" timestamp="1601563608403">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.2.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645349" />
-    <state width="1321" height="203" key="GridCell.Tab.2.right" timestamp="1601474645349">
+    <state width="1321" height="148" key="GridCell.Tab.2.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
+    <state width="1321" height="148" key="GridCell.Tab.2.right" timestamp="1601563608404">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.2.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645349" />
-    <state width="1321" height="203" key="GridCell.Tab.3.bottom" timestamp="1601474645350">
+    <state width="1321" height="148" key="GridCell.Tab.2.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608404" />
+    <state width="1321" height="148" key="GridCell.Tab.3.bottom" timestamp="1601563608407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.3.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645350" />
-    <state width="1321" height="203" key="GridCell.Tab.3.center" timestamp="1601474645350">
+    <state width="1321" height="148" key="GridCell.Tab.3.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
+    <state width="1321" height="148" key="GridCell.Tab.3.center" timestamp="1601563608406">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.3.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645350" />
-    <state width="1321" height="203" key="GridCell.Tab.3.left" timestamp="1601474645350">
+    <state width="1321" height="148" key="GridCell.Tab.3.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608406" />
+    <state width="1321" height="148" key="GridCell.Tab.3.left" timestamp="1601563608406">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.3.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645350" />
-    <state width="1321" height="203" key="GridCell.Tab.3.right" timestamp="1601474645350">
+    <state width="1321" height="148" key="GridCell.Tab.3.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608406" />
+    <state width="1321" height="148" key="GridCell.Tab.3.right" timestamp="1601563608406">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.3.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645350" />
-    <state width="1321" height="203" key="GridCell.Tab.4.bottom" timestamp="1601474645351">
+    <state width="1321" height="148" key="GridCell.Tab.3.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608406" />
+    <state width="1321" height="148" key="GridCell.Tab.4.bottom" timestamp="1601563608407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.4.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645351" />
-    <state width="1321" height="203" key="GridCell.Tab.4.center" timestamp="1601474645350">
+    <state width="1321" height="148" key="GridCell.Tab.4.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
+    <state width="1321" height="148" key="GridCell.Tab.4.center" timestamp="1601563608407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.4.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645350" />
-    <state width="1321" height="203" key="GridCell.Tab.4.left" timestamp="1601474645350">
+    <state width="1321" height="148" key="GridCell.Tab.4.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
+    <state width="1321" height="148" key="GridCell.Tab.4.left" timestamp="1601563608407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.4.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645350" />
-    <state width="1321" height="203" key="GridCell.Tab.4.right" timestamp="1601474645351">
+    <state width="1321" height="148" key="GridCell.Tab.4.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
+    <state width="1321" height="148" key="GridCell.Tab.4.right" timestamp="1601563608407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="203" key="GridCell.Tab.4.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601474645351" />
+    <state width="1321" height="148" key="GridCell.Tab.4.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size" timestamp="1600435014120">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1600435014120" />
-    <state x="511" y="57" key="RiderGenerateDialog" timestamp="1601473725064">
+    <state x="511" y="57" key="RiderGenerateDialog" timestamp="1601598339159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="511" y="57" key="RiderGenerateDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601473725064" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1601475622292">
+    <state x="511" y="57" key="RiderGenerateDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601598339159" />
+    <state x="184" y="29" key="SettingsEditor" timestamp="1601515322931">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475622292" />
+    <state x="184" y="29" key="SettingsEditor/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601515322931" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1601475674714">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475674714" />
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601514561889">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601514561889" />
     <state x="479" y="285" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601475552643">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="479" y="285" key="git4idea.remote.GitConfigureRemotesDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475552643" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601475434167">
+    <state x="338" y="172" key="run.anything.popup" timestamp="1601642823852">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475434167" />
+    <state x="338" y="172" key="run.anything.popup/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601642823852" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601643858186">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601643858186" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/uvv-contacts/Program.cs</url>
-          <line>14</line>
-          <properties documentPath="D:\dev\c#\uvv-contacts\uvv-contacts\Program.cs" initialLine="13">
-            <startOffsets>
-              <option value="346" />
-            </startOffsets>
-            <endOffsets>
-              <option value="357" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/uvv-contacts/Program.cs</url>
-          <line>12</line>
-          <properties documentPath="D:\dev\c#\uvv-contacts\uvv-contacts\Program.cs" initialLine="12">
-            <startOffsets>
-              <option value="317" />
-            </startOffsets>
-            <endOffsets>
-              <option value="332" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#caneva20.CircularList.Node`1" memberName="next" />

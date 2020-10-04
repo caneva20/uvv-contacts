@@ -13,6 +13,27 @@
           <e p="CircularList.cs" t="Include" />
           <e p="Node.cs" t="Include" />
         </e>
+        <e p="ContactBook.cs" t="Include" />
+        <e p="Logging" t="Include">
+          <e p="ILogger.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+        </e>
+        <e p="Menus" t="Include">
+          <e p="AddContactButton.cs" t="Include" />
+          <e p="ContactSelectorMenu.cs" t="Include" />
+          <e p="ContactsMenu.cs" t="Include" />
+          <e p="CreateContactMenu.cs" t="Include" />
+          <e p="IMenuAction.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
+          <e p="OrderingMethodMenu.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="ExitApplicationAction.cs" t="Include" />
+            <e p="SelectOption.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="Contact.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -22,7 +43,38 @@
             </e>
           </e>
         </e>
+        <e p="Persistence" t="Include">
+          <e p="IPersister.cs" t="Include" />
+          <e p="Persister.cs" t="Include" />
+          <e p="Readers" t="Include">
+            <e p="FileReader.cs" t="Include" />
+            <e p="IReader.cs" t="Include" />
+          </e>
+          <e p="Serializer" t="Include">
+            <e p="ISerializer.cs" t="Include" />
+            <e p="JsonSerializer.cs" t="Include" />
+          </e>
+          <e p="Writers" t="Include">
+            <e p="FileWriter.cs" t="Include" />
+            <e p="IWriter.cs" t="Include" />
+            <e p="PathNotFoundException.cs" t="Include" />
+          </e>
+        </e>
         <e p="Program.cs" t="Include" />
+        <e p="PromptEnhanced" t="Include">
+          <e p="MenuBuilder.cs" t="Include" />
+          <e p="PromptE.cs" t="Include" />
+          <e p="SelectBuilder.cs" t="Include" />
+        </e>
+        <e p="Utils" t="Include">
+          <e p="CellphoneUtils.cs" t="Include" />
+          <e p="InputValidators" t="Include">
+            <e p="CellphoneValidator.cs" t="Include" />
+            <e p="EmailValidator.cs" t="Include" />
+            <e p="InputValidator.cs" t="Include" />
+            <e p="MinLengthValidator.cs" t="Include" />
+          </e>
+        </e>
         <e p="uvv-contacts.csproj" t="IncludeRecursive" />
       </e>
       <e p="uvv-contacts.sln" t="IncludeFlat" />
