@@ -1,15 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using caneva20.CircularCollections;
 using caneva20.Models;
 using caneva20.Persistence;
 
 namespace caneva20 {
     public class ContactBook {
-        private readonly IList<Contact> _contacts = new List<Contact>();
+        private readonly CircularList<Contact> _contacts = new CircularList<Contact>();
         private readonly IPersister<IEnumerable<Contact>> _persister;
-        
-        public IReadOnlyCollection<Contact> List => new ReadOnlyCollection<Contact>(_contacts);
 
         public ContactBook(IPersister<IEnumerable<Contact>> persister) {
             _persister = persister;
@@ -18,7 +16,7 @@ namespace caneva20 {
         }
 
         private void Save() {
-            _persister.Save(_contacts);
+            _persister.Save(_contacts.Flatten());
         }
 
         private void Load() {
@@ -48,14 +46,18 @@ namespace caneva20 {
         }
 
         public void Update(Contact contact) {
-            var found = _contacts.FirstOrDefault(x => x.Id == contact.Id);
-            
+            var found = _contacts.Find(x => x.Id == contact.Id).Value;
+
             if (found != null) {
                 _contacts.Remove(found);
                 _contacts.Add(contact);
             }
-            
+
             Save();
+        }
+
+        public CircularList<Contact> OrderBy<TKey>(Func<Contact, TKey> keySelector) {
+            return _contacts.OrderBy(keySelector);
         }
     }
 }
