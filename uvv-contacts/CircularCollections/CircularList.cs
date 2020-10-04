@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace caneva20.CircularCollections {
     public class CircularList<T>  {
@@ -21,11 +22,11 @@ namespace caneva20.CircularCollections {
             return head.Prev == Head ? head : FindTail(head.Prev);
         }
 
-        public Node<T> Find(T value) {
+        public Node<T> Find(Func<T, bool> keySelector) {
             var current = Head;
 
             do {
-                if (current.Value.Equals(value)) {
+                if (keySelector(current.Value)) {
                     return current;
                 }
 
@@ -34,6 +35,8 @@ namespace caneva20.CircularCollections {
 
             return null;
         }
+        
+        public Node<T> Find(T value) => Find(x => x.Equals(value));
 
         public void Add(T value) {
             var newNode = new Node<T>(value);
