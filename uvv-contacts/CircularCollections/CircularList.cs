@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace caneva20.CircularCollections {
-    public class CircularList<T>  {
+    public class CircularList<T> : IEnumerable<T> {
         public int Count { get; private set; }
         public Node<T> Head { get; private set; }
 
         public bool IsEmpty => Count == 0;
-        
+
         public CircularList() {
             Head = null;
         }
@@ -110,6 +112,14 @@ namespace caneva20.CircularCollections {
             }
 
             return new CircularList<T>(flattened);
+        }
+
+        public IEnumerator<T> GetEnumerator() {
+            return Flatten().GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator() {
+            return GetEnumerator();
         }
     }
 }
