@@ -20,8 +20,10 @@ namespace caneva20.CircularCollections {
             }
         }
 
-        private Node<T> FindTail(Node<T> head) {
-            return head.Prev == Head ? head : FindTail(head.Prev);
+        private Node<T> FindTail(Node<T> current = null) {
+            current ??= Head;
+            
+            return current.Prev == Head ? current : FindTail(current.Prev);
         }
 
         public Node<T> Find(Func<T, bool> keySelector) {
@@ -48,7 +50,7 @@ namespace caneva20.CircularCollections {
                 Head.Prev = newNode;
                 Head.Next = newNode;
             } else {
-                var tail = FindTail(Head);
+                var tail = FindTail();
 
                 newNode.Next = Head.Next;
                 newNode.Prev = Head;
@@ -71,6 +73,10 @@ namespace caneva20.CircularCollections {
             node.Prev.Next = node.Next;
             node.Next.Prev = node.Prev;
 
+            if (node == Head) {
+                Head = node.Next;
+            }
+            
             Count--;
         }
 
