@@ -14,9 +14,5 @@
         public override string ToString() {
             return Value.ToString();
         }
-        
-        // public static implicit operator T(Node<T> node) {
-        //     return node.Value;
-        // }
     }
 }
