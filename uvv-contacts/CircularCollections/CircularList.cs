@@ -77,5 +77,39 @@ namespace caneva20.CircularCollections {
                 Remove(Head.Value);
             }
         }
+
+        public IEnumerable<T> Flatten() {
+            if (Count == 0) {
+                yield break;
+            }
+
+            var current = Head;
+
+            do {
+                yield return current.Value;
+
+                current = current.Next;
+            } while (current != Head);
+        }
+        
+        public CircularList<T> OrderBy<TKey>(Func<T, TKey> keySelector) {
+            var flattened = Flatten().ToArray();
+            var comparer = Comparer<TKey>.Default;
+            
+            for (var j = 0; j <= Count - 2; j++) {
+                for (var i = 0; i <= Count - 2; i++) {
+                    var keyA = keySelector(flattened[i]);
+                    var keyB = keySelector(flattened[i + 1]);
+                    
+                    if (comparer.Compare(keyA, keyB) == 1) {
+                        var temp = flattened[i + 1];
+                        flattened[i + 1] = flattened[i];
+                        flattened[i] = temp;
+                    }
+                }
+            }
+
+            return new CircularList<T>(flattened);
+        }
     }
 }
