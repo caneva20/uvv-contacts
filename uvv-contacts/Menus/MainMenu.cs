@@ -7,6 +7,7 @@ namespace caneva20.Menus {
             while (true) {
                 PromptE.Menu("[UVV Contacts] Pick an option")
                    .Action(new AddContactButton(book))
+                   .Action("List contacts", () => ContactsMenu.Show(book))
                    .Action(new ExitApplicationAction())
                    .Show();
             }
