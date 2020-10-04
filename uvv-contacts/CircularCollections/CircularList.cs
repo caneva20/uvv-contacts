@@ -1,4 +1,4 @@
-﻿namespace caneva20.CircularList {
+﻿namespace caneva20.CircularCollections {
     public class CircularList<T>  {
         public int Count { get; private set; }
         public Node<T> Head { get; private set; }
