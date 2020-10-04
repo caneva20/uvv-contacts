@@ -1,4 +1,6 @@
-﻿namespace caneva20.CircularCollections {
+﻿using System.Collections.Generic;
+
+namespace caneva20.CircularCollections {
     public class CircularList<T>  {
         public int Count { get; private set; }
         public Node<T> Head { get; private set; }
@@ -7,6 +9,12 @@
         
         public CircularList() {
             Head = null;
+        }
+
+        public CircularList(IEnumerable<T> enumerable) : this() {
+            foreach (var x in enumerable) {
+                Add(x);
+            }
         }
 
         private Node<T> FindTail(Node<T> head) {
