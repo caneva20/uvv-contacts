@@ -60,5 +60,11 @@
 
             Count--;
         }
+
+        public void Clear() {
+            while (Count != 0) {
+                Remove(Head.Value);
+            }
+        }
     }
 }
