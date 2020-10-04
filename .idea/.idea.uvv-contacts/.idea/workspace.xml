@@ -13,40 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1efc94-45ff-42f0-bb1d-0139b84b3e76" name="Default Changelist" comment="update idea config">
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/ContactBook.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Logging/ILogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Logging/Logger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/AddContactButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/ContactSelectorMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/ContactsMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/CreateContactMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/IMenuAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/MainMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/OrderingMethodMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/Utils/ExitApplicationAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Menus/Utils/SelectOption.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Models/Contact.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/IPersister.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Persister.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Readers/FileReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Readers/IReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Serializer/ISerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Serializer/JsonSerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/FileWriter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/IWriter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/PathNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/MenuBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/PromptE.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/SelectBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/CellphoneUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/CellphoneValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/EmailValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/InputValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/MinLengthValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" afterDir="false" />
+    <list default="true" id="1f1efc94-45ff-42f0-bb1d-0139b84b3e76" name="Default Changelist" comment="add list contacts UI">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.uvv-contacts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uvv-contacts/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/uvv-contacts/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvv-contacts/uvv-contacts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/uvv-contacts/uvv-contacts.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +39,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/CircularList/Node.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AE6C5606-323D-493F-8435-C2D7CBA7A978/f1/ba328143/ConsoleMenu.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/6c/a4c9be81/Prompt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/18/ad5fc97b/Selector`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AE6C5606-323D-493F-8435-C2D7CBA7A978/60/21a7458f/MenuConfig.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/31F94AF4-0455-4C4C-BD4F-AB58A9F2D1BF/22/OrderBy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/Menus/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/8a/8f614336/Select`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6D13C30E-8D2C-4F45-8A43-BA680CD6B33D/23/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/18/ad5fc97b/Selector`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/uvv-contacts/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31F94AF4-0455-4C4C-BD4F-AB58A9F2D1BF/57/3b077fe3/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FEF0607-BAA0-4CFD-B714-EAB1DF8D82E4/6c/a4c9be81/Prompt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/CircularCollections/CircularList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/31F94AF4-0455-4C4C-BD4F-AB58A9F2D1BF/41/OrderedEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/31F94AF4-0455-4C4C-BD4F-AB58A9F2D1BF/22/OrderBy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/3D0/Comparer.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6D13C30E-8D2C-4F45-8A43-BA680CD6B33D/23/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/dev/c#/uvv-contacts/uvv-contacts/Menus/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uvv-contacts/Persistence/Writers/FileWriter.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Persistence/Persister.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/CircularList/Node.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Persistence/Serializer/JsonSerializer.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidation.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/Menus/IInputValidator.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/Menus/InputValidator.cs" />
@@ -102,7 +74,6 @@
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/CellphoneValidator.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/Shared/ExitApplicationAction.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/InputValidators/PromptE.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/ContactBook.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/NewContact/NewContactMenu.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/UpdateContactAction.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/SelectOption.cs" />
@@ -112,7 +83,6 @@
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/Main/AddContactButton.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Utils/PromptE.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/Main/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Utils/ExitApplicationAction.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/ListContactsButton.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Models/Contact.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/IMenu.cs" />
@@ -124,17 +94,23 @@
         <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/SelectExtension.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/MenuExtension.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/PromptE.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Program.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/MenuBuilder.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/ListContactsMenu.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/IMenuAction.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/CreateContactMenu.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/AddContactButton.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Menus/MainMenu.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/PromptEnhanced/SelectBuilder.cs" />
-        <option value="$PROJECT_DIR$/uvv-contacts/Menus/ContactsMenu.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/OrderingMethodMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/CircularList/CircularList.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/CircularCollections/Node.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/CircularCollections/CircularListExtensions.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/Utils/ExitApplicationAction.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/CircularCollections/CircularList.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/ContactBook.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Menus/ContactsMenu.cs" />
         <option value="$PROJECT_DIR$/uvv-contacts/Menus/ContactSelectorMenu.cs" />
+        <option value="$PROJECT_DIR$/uvv-contacts/Program.cs" />
       </list>
     </option>
   </component>
@@ -192,7 +168,9 @@
       <workItem from="1601554723914" duration="8802000" />
       <workItem from="1601589145593" duration="5951000" />
       <workItem from="1601642370115" duration="3113000" />
-      <workItem from="1601826450511" duration="218000" />
+      <workItem from="1601826450511" duration="7197000" />
+      <workItem from="1601838085226" duration="380000" />
+      <workItem from="1601839163238" duration="4818000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1601475646039</created>
@@ -215,7 +193,168 @@
       <option name="project" value="LOCAL" />
       <updated>1601826665751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update idea config">
+      <created>1601826687949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826687949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove unused code">
+      <created>1601826727193</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826727193</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add support packages">
+      <created>1601826742496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826742496</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add persistence utils">
+      <created>1601826795435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826795435</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add input validators">
+      <created>1601826814155</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826814155</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add cellphone utils">
+      <created>1601826824243</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826824243</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add promp extension">
+      <created>1601826850221</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826850221</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add logging utils">
+      <created>1601826922074</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826922074</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add ContactBook">
+      <created>1601826936311</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826936311</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add base menu utils">
+      <created>1601827077921</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601827077921</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update namespace">
+      <created>1601837000861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837000861</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add Clear method">
+      <created>1601837089520</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837089520</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add alternate constructor">
+      <created>1601837150876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837150876</updated>
+    </task>
+    <task id="LOCAL-00017" summary="improve Find()">
+      <created>1601837207134</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837207134</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add OrderBy()">
+      <created>1601837268900</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837268900</updated>
+    </task>
+    <task id="LOCAL-00019" summary="implement IEnumerable">
+      <created>1601837287826</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837287826</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add '[]' around 'system' actions">
+      <created>1601837314189</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837314189</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add main menu UI">
+      <created>1601837387640</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837387640</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add create contact UI">
+      <created>1601837412564</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837412564</updated>
+    </task>
+    <task id="LOCAL-00023" summary="replace IList with CircularList">
+      <created>1601837482588</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837482588</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add ordering selection UI">
+      <created>1601839517371</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601839517371</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bug fix&#10;&#10;stack overflow when removing the Head element">
+      <created>1601842452168</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601842452168</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add list contacts UI">
+      <created>1601845294644</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601845294644</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,17 +379,39 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add circular list" />
     <MESSAGE value="update idea config" />
-    <option name="LAST_COMMIT_MESSAGE" value="update idea config" />
+    <MESSAGE value="remove unused code" />
+    <MESSAGE value="add support packages" />
+    <MESSAGE value="add persistence utils" />
+    <MESSAGE value="add input validators" />
+    <MESSAGE value="add cellphone utils" />
+    <MESSAGE value="add promp extension" />
+    <MESSAGE value="add logging utils" />
+    <MESSAGE value="add ContactBook" />
+    <MESSAGE value="add base menu utils" />
+    <MESSAGE value="update namespace" />
+    <MESSAGE value="add Clear method" />
+    <MESSAGE value="add alternate constructor" />
+    <MESSAGE value="improve Find()" />
+    <MESSAGE value="add OrderBy()" />
+    <MESSAGE value="implement IEnumerable" />
+    <MESSAGE value="add '[]' around 'system' actions" />
+    <MESSAGE value="add main menu UI" />
+    <MESSAGE value="add create contact UI" />
+    <MESSAGE value="replace IList with CircularList" />
+    <MESSAGE value="add ordering selection UI" />
+    <MESSAGE value="bug fix&#10;&#10;stack overflow when removing the Head element" />
+    <MESSAGE value="add list contacts UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list contacts UI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601643837455">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601643837455" />
-    <state width="465" height="466" key="DebuggerActiveHint" timestamp="1601560983938">
+    <state width="465" height="466" key="DebuggerActiveHint" timestamp="1601842130114">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="465" height="466" key="DebuggerActiveHint/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601560983938" />
+    <state width="465" height="466" key="DebuggerActiveHint/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842130114" />
     <state x="554" y="282" key="Github.ShareDialog" timestamp="1601475489721">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -259,102 +420,106 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="518" y="89" key="Github.UntrackedFilesDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475511709" />
-    <state width="1365" height="712" key="GridCell.Tab.0.bottom" timestamp="1601645511994">
+    <state width="1365" height="712" key="GridCell.Tab.0.bottom" timestamp="1601845186368">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1365" height="712" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511994" />
-    <state width="1365" height="712" key="GridCell.Tab.0.center" timestamp="1601645511993">
+    <state width="1365" height="712" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601845186368" />
+    <state width="1365" height="712" key="GridCell.Tab.0.center" timestamp="1601845186368">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1365" height="712" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511993" />
-    <state width="1365" height="712" key="GridCell.Tab.0.left" timestamp="1601645511993">
+    <state width="1365" height="712" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601845186368" />
+    <state width="1365" height="712" key="GridCell.Tab.0.left" timestamp="1601845186368">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1365" height="712" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511993" />
-    <state width="1365" height="712" key="GridCell.Tab.0.right" timestamp="1601645511993">
+    <state width="1365" height="712" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601845186368" />
+    <state width="1365" height="712" key="GridCell.Tab.0.right" timestamp="1601845186368">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1365" height="712" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601645511993" />
-    <state width="1321" height="148" key="GridCell.Tab.1.bottom" timestamp="1601563608403">
+    <state width="1365" height="712" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601845186368" />
+    <state width="1365" height="712" key="GridCell.Tab.1.bottom" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
-    <state width="1321" height="148" key="GridCell.Tab.1.center" timestamp="1601563608403">
+    <state width="1365" height="712" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.1.center" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
-    <state width="1321" height="148" key="GridCell.Tab.1.left" timestamp="1601563608402">
+    <state width="1365" height="712" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.1.left" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608402" />
-    <state width="1321" height="148" key="GridCell.Tab.1.right" timestamp="1601563608403">
+    <state width="1365" height="712" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.1.right" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
-    <state width="1321" height="148" key="GridCell.Tab.2.bottom" timestamp="1601563608405">
+    <state width="1365" height="712" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.2.bottom" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.2.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608405" />
-    <state width="1321" height="148" key="GridCell.Tab.2.center" timestamp="1601563608403">
+    <state width="1365" height="712" key="GridCell.Tab.2.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.2.center" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.2.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
-    <state width="1321" height="148" key="GridCell.Tab.2.left" timestamp="1601563608403">
+    <state width="1365" height="712" key="GridCell.Tab.2.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.2.left" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.2.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608403" />
-    <state width="1321" height="148" key="GridCell.Tab.2.right" timestamp="1601563608404">
+    <state width="1365" height="712" key="GridCell.Tab.2.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.2.right" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.2.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608404" />
-    <state width="1321" height="148" key="GridCell.Tab.3.bottom" timestamp="1601563608407">
+    <state width="1365" height="712" key="GridCell.Tab.2.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.3.bottom" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.3.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
-    <state width="1321" height="148" key="GridCell.Tab.3.center" timestamp="1601563608406">
+    <state width="1365" height="712" key="GridCell.Tab.3.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
+    <state width="1365" height="712" key="GridCell.Tab.3.center" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.3.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608406" />
-    <state width="1321" height="148" key="GridCell.Tab.3.left" timestamp="1601563608406">
+    <state width="1365" height="712" key="GridCell.Tab.3.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
+    <state width="1365" height="712" key="GridCell.Tab.3.left" timestamp="1601842233945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.3.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608406" />
-    <state width="1321" height="148" key="GridCell.Tab.3.right" timestamp="1601563608406">
+    <state width="1365" height="712" key="GridCell.Tab.3.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233945" />
+    <state width="1365" height="712" key="GridCell.Tab.3.right" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.3.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608406" />
-    <state width="1321" height="148" key="GridCell.Tab.4.bottom" timestamp="1601563608407">
+    <state width="1365" height="712" key="GridCell.Tab.3.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
+    <state width="1365" height="712" key="GridCell.Tab.4.bottom" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.4.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
-    <state width="1321" height="148" key="GridCell.Tab.4.center" timestamp="1601563608407">
+    <state width="1365" height="712" key="GridCell.Tab.4.bottom/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
+    <state width="1365" height="712" key="GridCell.Tab.4.center" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.4.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
-    <state width="1321" height="148" key="GridCell.Tab.4.left" timestamp="1601563608407">
+    <state width="1365" height="712" key="GridCell.Tab.4.center/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
+    <state width="1365" height="712" key="GridCell.Tab.4.left" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.4.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
-    <state width="1321" height="148" key="GridCell.Tab.4.right" timestamp="1601563608407">
+    <state width="1365" height="712" key="GridCell.Tab.4.left/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
+    <state width="1365" height="712" key="GridCell.Tab.4.right" timestamp="1601842233946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="148" key="GridCell.Tab.4.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601563608407" />
+    <state width="1365" height="712" key="GridCell.Tab.4.right/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601842233946" />
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size" timestamp="1600435014120">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="116" key="Rider.ProjectTemplateDialog.Size/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1600435014120" />
-    <state x="511" y="57" key="RiderGenerateDialog" timestamp="1601598339159">
+    <state x="511" y="57" key="RiderGenerateDialog" timestamp="1601835977581">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="511" y="57" key="RiderGenerateDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601598339159" />
+    <state x="511" y="57" key="RiderGenerateDialog/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601835977581" />
     <state x="184" y="29" key="SettingsEditor" timestamp="1601515322931">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601515322931" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1601475674714">
+    <state width="498" height="477" key="SwitcherDM" timestamp="1601836558816">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601475674714" />
+    <state width="498" height="477" key="SwitcherDM/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601836558816" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1601826940306">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/-1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1601826940305" />
     <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601514561889">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

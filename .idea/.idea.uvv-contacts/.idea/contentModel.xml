@@ -9,7 +9,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="uvv-contacts" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CircularList" t="Include">
+        <e p="CircularCollections" t="Include">
           <e p="CircularList.cs" t="Include" />
           <e p="Node.cs" t="Include" />
         </e>
